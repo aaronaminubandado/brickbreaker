@@ -103,7 +103,7 @@ function drawScore() {
 function drawLives() {
   ctx.font = "16px Arial";
   ctx.fillStyle = "#000000";
-  ctx.fillText(`Score: ${lives}`, canvas.width - 65 ,20);
+  ctx.fillText(`Lives: ${lives}`, canvas.width - 65 ,20);
 }
 
 function drawBall() {
